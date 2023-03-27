@@ -8,7 +8,7 @@ Vous devez disposer, en ligne de commande :
 
 - de la toolchain go
 - de sqlite3
-- de yarn pour le développement Svelte
+- optionnellement de yarn pour le développement Svelte
 
 ## Utilisation
 
