@@ -55,7 +55,7 @@
   export function setup() {
     const port = import.meta.env.VITE_BACKEND_HTTP_PORT
     backend_url = port === undefined ? `${window.location.origin}` : `${window.location.protocol}//${window.location.hostname}:${port}`
-    setMutationsTypes()
+    set_mutations_types()
   }
 
   // --------------------------------------------------------------------------
@@ -64,7 +64,7 @@
 
   let backend_url
 
-  async function setMutationsTypes() {
+  async function set_mutations_types() {
     const res = await fetch(build_url('/types'))
     const d = await res.json()
     d['Cultures'].unshift('')
