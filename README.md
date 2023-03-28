@@ -13,6 +13,7 @@ Vous devez disposer, en ligne de commande :
 ## Utilisation
 
 - `git clone https://github.com/cgimenez/yadvf`
+- `cd yadvf`
 - `go run .` (ou `go build` puis `./yadvf`)
 
 à la première utilisation l'application va télécharger l'ensemble des données disponibles depuis 2017 et les intégrer dans la base de données locale. Cette opération peut prendre une dizaine de minutes, en fonction de la vitesse de votre connexion et de la puissance de votre ordinateur.
